@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+estatico{
+    position: fixed;
+}
+
+body{
+    background: #d4d3ce  ;
+}
+
+/*Menu desplegable*/
+nav {
+    margin-top: 10px;
+    
+}
+
+
+.menu-horizontal2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-horizontal2 > li > a {
+    display: block;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+     background-color: #c9782f;
+    
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none; 
+   
+}
+
+.menu-horizontal > li:hover {
+    background-color: #bfaa97;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #c9782f;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: #bfaa97 ;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+#html {
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #d4d3ce ;
+    ;
+
+}
+
+.divazul {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+
+.divazul h1 {
+    padding: 10px;
+    padding-top: 40px;
+    margin-top: 110px;
+    font-family: frutiger;
+    font-size: 57px;
+    color: #e9b63b;
+}
+.divazul h2 {
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 12px;
+    font-family: frutiger;
+    font-size: 40px;
+    color: white;
+}
+
+.divrojo {
+    height: 250px;
+    width: 100%;
+    background-color: #c12c36;
+}
+.divrojo h1 {
+    padding: 10px;
+    padding-top: px;
+    margin-top: 65px;
+    font-family: frutiger;
+    font-size: 43px;
+    color: white;
+}
+
+
+/*Zoom In*/
+.zoomIn img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    padding-bottom: 
+}
+.zoomIn:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+main{
+  width: 1000px;
+}
+
+.clear{
+	width: 100%;
+	margin: 3% 0;
+	display: flex;
+	justify-content: space-around;
+    font-family: 'frutiger'
+}
+
+#col1 {
+  background-color: #272C8C;
+  width: 100%;
+  
+  text-align: center;
+  padding: 15px;
+margin-top: 30px;
+    margin-right: 75px;
+    margin-left: 90px;
+  color: #f1f1f1;
+  border-radius: 20px;
+    margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+    font-family: 'frutiger';
+}
+
+
+#col2nosotros h1 {
+    font-family: frutiger;
+    font-size: 40px;
+    color: #282d95;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+#col2nosotros h2 {
+    font-family: 'frutigerregular;
+    font-size: 30px;
+}
+
+/*footer*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #bfaa97;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 20px 0px;
+    height: 200
+}
+
+
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: frutiger;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 5px;
+    height: 45px;
+    line-height: 45px;
+    color: #;
+    margin-right: 10px;
+    background-color: #;
+    text-align: center;
+   
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: #c9782f;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFF;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.paw {
+    margin-top: 20px;
+}
+
+
+@media(min-width: 1080px) {
+    body {
+        padding: 0 4em;
+    }
+    video {
+        width: 100%;
+    height: 550px;
+    overflow: hidden;
+       
+    }

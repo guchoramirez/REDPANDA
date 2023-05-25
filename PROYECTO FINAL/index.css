@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+estatico{
+    position: fixed;
+}
+
+body{
+    background: #d4d3ce  ;
+}
+
+/*Menu desplegable*/
+nav {
+    margin-top: 10px;
+    
+}
+
+
+.menu-horizontal2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-horizontal2 > li > a {
+    display: block;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+     background-color: #c9782f;
+    
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none; 
+   
+}
+
+.menu-horizontal > li:hover {
+    background-color: #bfaa97;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #c9782f;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: #bfaa97 ;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+
+#html {
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #d4d3ce ;
+    ;
+
+}
+
+/*Carrusel*/
+.carrousel {
+    margin-top: 200px;
+    width: 100%;
+}
+
+.conteCarrousel {
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+}
+
+.itemCarrousel {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1 {
+    background-image: url(imagenes/i1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#itemCarrousel-2 {
+   background-image: url(imagenes/i2.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+#itemCarrousel-3 {
+     background-image: url(imagenes/i3.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.conteCarrouselController {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #c9782f;
+}
+
+.conteCarrouselController > a:hover {
+    color: #c9782f;
+    transform: scale(1.5)
+}
+
+
+
+/*footer*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #bfaa97;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 20px 0px;
+    height: 200
+}
+
+
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: frutiger;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 5px;
+    height: 45px;
+    line-height: 45px;
+    color: #;
+    margin-right: 10px;
+    background-color: #;
+    text-align: center;
+   
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: #c9782f;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFF;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.paw {
+    margin-top: 20px;
+}
+
+
+@media(min-width: 1080px) {
+    body {
+        padding: 0 4em;
+    }
+    video {
+        width: 100%;
+    height: 550px;
+    overflow: hidden;
+       
+    }
